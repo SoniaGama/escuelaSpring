@@ -19,7 +19,7 @@ public class EscuelaSpringApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args){
 		try {
-			menu.escogerMetodo();
+			//menu.escogerMetodo();
 		}catch(Exception ex) {
 			ex.getCause();
 			ex.getMessage();
